@@ -16,6 +16,7 @@ html, body {
 body {
     background-color: #1F2937;
     color: #D5D4D8;
+    padding-top: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
