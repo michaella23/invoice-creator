@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ============= main elements ============== */
+
+body {
+    background-color: #1F2937;
+    color: #D5D4D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-header, main {
+    width: 100vw;
+    max-width: 550px;
+    border: 1px solid #918E9B22;
+    padding: 1.5em 2em 1em;
+}
+
+main {
+  border-top: none;
+}
+
+.main-header {
+    background-color: #3A69D2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    text-align: center;
+}
+
+.task-headings, .service-item, .total, .summary {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+}
+
+.mail-icon {
+    height: 1em;
+    padding-right: 1em;
+}
+
+/* ========= button elements ========= */
+
+.buttons {
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1.2em;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+
+    .main-header, main {
+        width: 100vw;
+    }
+
+    .buttons {
+       height: 175px; 
+       flex-direction: column; 
+       align-items: center;
+       justify-content: space-around;
+    } 
+}
+
+    .service-btn {
+        width: 100%;
+        background: #D1D4F4;
+        color: #4A4E74;
+        font-size: .85rem;
+        padding: 1em 1.6em;
+        border-radius: 8px;
+    }
+
+    .btn {
+        color: #D5D4D8;
+        background: none;
+        border: none;
+        color: inherit;
+        font-size: .6rem;
+        margin-left: 1em;
+    }
+
+    .send-btn {
+        background-color: #3A69D2;
+        color: white;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        margin: 3em 0;
+    }
+
+    button:hover,
+    button:focus,
+    .send-btn:hover, 
+    .send-btn:focus {
+        opacity: .85;
+    }
+
+/* ======== typography ========= */
+
+h1 {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-weight: 400; 
+}
+
+.tasks > .column {
+    font-weight: 700;
+}
+
+.total {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.task-heading {
+    padding-bottom: 1em;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.dollar {
+    color: #918E9B;
+}
+
+.notes {
+    font-size: .8rem;
+}
+
+.total-cost {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.service-item {
+    color: #F5F5F5;
+}
+
+.tasks {
+    border-bottom: 1px solid #C3C6DB;
+    padding: 1em 0 2em;
+}
+
+.tasks, .service-summary {
+    color: #D5D4D8;
+}
