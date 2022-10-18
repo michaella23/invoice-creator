@@ -1,16 +1,18 @@
-# title(){return this.options.title||this.options.name}
+# Invoice Creator
 
-## Supporting Scrimba
+## Objectives
 
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
+The goal of this project was to simulate an e-commerce app where the user can select services and have an invoice generated with total charges. I was to match design specifications from a Figma file, and provide interactivity with buttons to add the cost of services to the invoice as well as the option to remove individual services or reset the form
 
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
+## My stack
 
-	It would also mean the world to us if you share the courses.  
+I used HTML, CSS and Vanilla JavaScript in this project, and the design specs came from a Figma file. 
 
-Happy Coding!
+## Accomplishments
+
+The design was not too challenging to accomplish, and while I didn't build this with a mobile-first approach I did add code that would allow the app to be viewed at different screen sizes.
+
+
+## Challenges
+
+Adding the code to remove one service at a time proved challenging. I would think that I had it, but had to go back to the drawing board a few times. It was rewarding to be able to get that feature functioning, and I know I'll be using it in future projects.
