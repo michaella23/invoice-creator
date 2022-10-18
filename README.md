@@ -16,3 +16,7 @@ The design was not too challenging to accomplish, and while I didn't build this 
 ## Challenges
 
 Adding the code to remove one service at a time proved challenging. I would think that I had it, but had to go back to the drawing board a few times. It was rewarding to be able to get that feature functioning, and I know I'll be using it in future projects.
+
+## Things to revisit
+
+I want to make sure that this app is fully accessible and plan to revisit the code to make sure I am using semantic HTML appropriately and that interactive elements change state as needed.
